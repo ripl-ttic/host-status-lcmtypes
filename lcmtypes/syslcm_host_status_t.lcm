@@ -1,7 +1,4 @@
-// Each machine should be running a script that sends these messages.
-// Adapted from arlcm_battery_status_t
-
-package ripl;
+package syslcm;
 
 struct host_status_t
 {
@@ -22,5 +19,5 @@ struct host_status_t
     int64_t min_cpu_freq_hz[num_processors];
     int64_t max_cpu_freq_hz[num_processors];
     int64_t cur_cpu_freq_hz[num_processors];
-    
+
 }
